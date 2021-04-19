@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Solunet | Inicio</title>
+	<script
+	src="https://kit.fontawesome.com/8273e4b325.js"
+	crossorigin="anonymous"
+  ></script>
+  <link
+	rel="stylesheet"
+	type="text/css"
+	href="https://fonts.googleapis.com/css?family=Lora|Montserrat"
+  />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+
+	
+	
+	</head>
+
+
+	<body >
+
+		<!--COMIENZO ENCABEZADO-->
+	<div class= "wrapper">
+
+		<header>
+
+			<div class="toggle">
+				<a href="#" id="btn__toggle" class="btn__toggle">+</a>
+			</div>
+			<nav class="nav__bar">
+
+				
+				<ul id="navegation" class="navegation">
+					
+					<li > <a href="#"> 
+						<i class="fa fa-globe" aria-hidden="true"></i>
+						<span class="solu">Solu</span><span class="net">net</span>
+					</a></li>
+					<li> <a href="#">internet</a> </li>
+					<li> <a href="#"> housing</a></li>
+					<li> <a href="#"> servers</a></li>
+					<li> <a href="#"> hosting</a> </li>
+				</ul>
+			</nav>
+		</header>
+
+					<!--FINAL ENCABEZADO-->
+
+				<!--CUERTPO PRINCIPAL-->
+
+		<main>
+			<section class="content__slider">
+			<ul class="slider">
+				<li class="slider__1">
+				
+
+				<img src="img/slider/slider2.jpg" alt="">
+				
+				</li>
+				<li class="slider__2"><img src="img/slider/slider12.jpg" alt=""></li>
+				<li class="slider__3"><img src="img/slider/slider3.jpg"></li>
+				<li class="slider__4"><img src="img/slider/slider4.jpg" alt=""></li>
+
+
+			</ul>
+		</section >
+
+		<section class="grid">
+			<div class="card">
+				<i class="fa fa-wifi" aria-hidden="true"></i>
+
+				<h3>Internet Inalambrica</h3>
+
+				<p>
+					Internet sin telefonos <br>
+					subi mas rapido tus fotos y videos <br>
+					ancho de banda de <br>
+					 <span class="textoResaltado">6  10  14 Megas</span> <br>
+					Atencion las 24hs
+				</p>
+				<a href="#" class="btn">INFO</a>
+
+			</div>
+
+			<div class="card">
+				<i class="fa fa-sitemap" aria-hidden="true"></i>
+
+				<h3>Internet Fibra optica</h3>
+
+				<p>
+					Mira las mejores peliculas en<br> <span class="textoResaltado"> Full HD / 4K / 8K </span><br>
+					Planes de 10 Megas hasta 1000 Megas <br>
+					Cuenta de email <br>
+					WiFi Dual Band
+
+				</p>
+				<a href="#" class="btn">INFO</a>
+			</div>
+
+			<div class="card">
+				<i class="fa fa-server" aria-hidden="true"></i>
+
+				<h3>Servidores</h3>
+
+				<p>
+					Los Servidores Dedicados de Grupo Solunet,
+					están diseñados para proporcionar soluciones 
+					de alto rendimiento, confiabilidad
+					y seguridad.
+
+				</p>
+				<a href="#" class="btn">INFO</a>
+			</div>
+
+			<div class="card">
+				<i class="fa fa-cloud" aria-hidden="true"></i>
+
+				<h3>Hosting</h3>
+				<p>
+				Seleccioná el plan que mas se amolde a tus necesidades , 
+				el lugar mas seguro donde subir tus paginas web.
+				Soporte tecnico 24/7/365.
+			   </p>
+			   <a href="#" class="btn last">INFO</a>
+			</div>
+			
+
+		</section>
+
+		
+
+		</main>
+	
+		<footer>
+			<div class="grid__footer">
+
+				<div class="socialmedia">
+					<h3 class=".firts__h3">Redes Sociales</h3> 	
+					<ul class="redes">
+						
+						<li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i>
+						</a></li>
+						
+						<li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i>
+						</a></li>
+
+						<li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i>
+						</a></li>
+						
+						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>
+						</a></li>
+
+						<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
+						</a></li>
+
+		
+					</ul>
+				</div>
+				<div>
+					<h3>Planes</h3>
+					<ul>
+						<li>WiFi</li>
+						<li>Fibra Optica</li>
+						<li>Premium</li>
+						<li>Ultra</li>
+						<li>Plus</li>
+					</ul>
+
+				</div>
+
+				<div>
+					<h3>Servicios</h3>
+
+					<ul>
+						<li>Atencion al Cliente</li>
+						<li>0800XXX2121</li>
+						<li>011XXX32450</li>
+						<li>Ventas</li>
+						<li>0800XXX43535</li>
+					</ul>
+
+				</div>
+			</div>
+			
+		</footer>
+
+	</div>
+ <script>
+
+	const menu__toggle= document.getElementById('navegation');
+	const btn__toggle= document.getElementById('btn__toggle');
+
+	btn__toggle.addEventListener('click', function(){
+
+		navegation.classList.toggle('show');
+
+	});
+
+ </script>
+
+
+</body>
+</html>
