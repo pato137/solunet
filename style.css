@@ -407,7 +407,7 @@ footer{
         
         height: 100vh;
         
-        position: absolute;
+        position: fixed;
         
         background:#041322;
         transform: translateY(0%);
