@@ -183,7 +183,7 @@ transition: all 3s;
 
 .slider img{
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .slider{
